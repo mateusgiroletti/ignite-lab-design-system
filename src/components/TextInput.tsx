@@ -1,5 +1,4 @@
 import { InputHTMLAttributes, ReactNode } from 'react';
-import { clsx } from 'clsx';
 import { Slot } from '@radix-ui/react-slot';
 
 export interface TextInputRootProps {
