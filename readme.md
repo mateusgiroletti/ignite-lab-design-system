@@ -98,7 +98,7 @@ Para executar o projeto localmente basta clonar o repositório e executar os seg
 Clone em sua maquina:
 
 ```console
-git clone https://github.com/mateusgiroletti/app-service-provider-server.git
+git clone https://github.com/mateusgiroletti/ignite-lab-design-system.git
 ```
 
 Mude para o diretório do projeto e instale as dependências via npm
