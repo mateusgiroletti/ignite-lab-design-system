@@ -103,7 +103,7 @@ git clone https://github.com/mateusgiroletti/ignite-lab-design-system.git
 
 Mude para o diretório do projeto e instale as dependências via npm
 ```console
-cd ignite-lab-design-system && npm install
+cd ignite-lab-design-system && npm ci --legacy-peer-deps
 ```
 
 Pare executar o storybook rode:
