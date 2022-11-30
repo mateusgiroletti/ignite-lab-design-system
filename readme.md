@@ -1,127 +1,128 @@
 # Ignite Lab Design System
 
-Aplicação realizada durante evento Ignite Lab edição Design System da [RocketSeat](https://www.rocketseat.com.br/)
+Application made during RocketSeat's Ignite Lab Design System edition event (https://www.rocketseat.com.br/)
 
-## O Projeto
+## The Project
 
-O projeto consiste em um design system completo, desde a prototipação no figma, documentação dos componentes com storybook, desenvolvimento da interface com React, testes e por fim deploy automatizado com o GitHub Actions e GitHub Pages.
-Visando assim a aprendizagem de um desenvolvimento completo de uma aplicação moderna front-end web.
+The project consists of a complete design system, from prototyping in figma, documentation of components with storybook, development of the interface with React, testing and finally automated deployment with GitHub Actions and GitHub Pages.
+Thus achieving the learning of a complete development of a modern front-end web application.
 
-## Tecnologias
+## Technologies
 
-As seguintes tecnologias foram utilizadas no desenvolvimento do projeto:
+The following technologies were used in the development of the project:
 
 <ul>
     <li>
         Figma
         <p>
-            Ferramenta utilizada para prototipar a interface, criando palhetas de cores e componentes.
+            Tool used to prototype the interface, creating color palettes and components.
         </p>
     </li>
     <li>
         Vite
         <p>
-            Utilizado para criação do projeto, uma opção muito mais rápida  que o create-react-app, suporta typescript (utilizado no projeto) e outras tecnologias de ponta.
+            Used for project creation, a much faster option than create-react-app, supports typescript (used in the project) and other cutting-edge technologies.
         </p>
     </li>
     <li>
         React
         <p>
-            A biblioteca mais popular atualmente para desenvolvimento de interfaces front-end web, evoluindo a cada versão e tendo uma enorme comunidade suportando.
+            Currently the most popular library for developing front-end web interfaces, evolving with each version and having a huge community supporting it.
         </p>
     </li>
     <li>
         TypeScript
         <p>
-            Adicionando tipagem ao javascript, facilitando a detecção de erros durante o desenvolvimento e incluindo IntelliSense da IDE, facilitando assim o desenvolvimento.
+            Adding typing to javascript, making it easier to catch errors during development, and including the IDE's IntelliSense, making development easier.
         </p>
     </li>
     <li>
         Storybook
         <p>
-            Solução para documentar o front-end, criando os componentes, seus atributos, propriedades e até mesmo as páginas da aplicação, ajudando a manter um design system. Possui integração completa com o react e testes.
+            Solution to document the front-end, creating the components, their attributes, properties and even the application pages, helping to maintain a design system. It has full integration with react and testing.
         </p>
     </li>
     <li>
         Tailwind CSS
         <p>
-            Biblioteca que traz classes CSS e demais elementos prontos para utilizar no desenvolvimento, acelerando assim a criação das interfaces. Mas é possível também alterar as paletas de cores e demais classes de um jeito fácil e sem precisar mexer diretamente o código CSS.
+            Library that brings CSS classes and other elements ready to use in development, thus accelerating the creation of interfaces. But it is also possible to change the color palettes and other classes in an easy way and without having to directly change the CSS code.
         </P>
     </li>
     <li>
         Radix-ui
         <p>
-            Ferramenta que traz componentes reutilizáveis, sem estilização prontos para serem utilizados na criação da interface. 
+            Tool that brings reusable components, without styling ready to be used in the creation of the interface.
         </p>
     </li>
     <li>
         Jest
         <p>
-            Framework JS para realizar testes automatizados e simples, possui integração com React e storybook, podendo assim realizar testes a cada interação na própria documentação.
+            JS framework to carry out automated and simple tests, it has integration with React and storybook, thus being able to test each interaction in the documentation itself.
         </p>
     </li>
     <li>
         Mock Service Worker: MSW
         <p>
-            Utilizado para interceptar requisições externas e simular respostas de uma determinada API.
+            Used to intercept external requests and simulate responses from a given API.
         </p>
     </li>
     <li>
         GitHub Actions
         <p>
-            Utilizado para automatizar o workflow, realizando o deploy contínuo do design system a cada commit realizado no repositório remoto.
+            Used to automate the workflow, performing the continuous deployment of the design system with each commit made in the remote repository.
         </p>
     </li>
     <li>
         GitHub Pages
         <p>
-            Solução grátis para hospedar arquivos estáticos, utilizado para o design system.
+            Free solution to host static files, used for system design.
         </p>
     </li>
 </ul>
 
-## Prototipo da Interface
+## Interface Prototype
 
-Durante as aulas foi desenvolvido no Figma o prototipo da interface, que pode ser visto [aqui](https://www.figma.com/file/deUKSSFh08h5fqtXUX7dKF/Ignite-Lab-Design-System?node-id=5%3A58&t=RcYClD8T6i8OyODS-1).
+During the classes, the interface prototype was developed in Figma, which can be seen [here](https://www.figma.com/file/deUKSSFh08h5fqtXUX7dKF/Ignite-Lab-Design-System?node-id=5%3A58&t=RcYClD8T6i8OyODS-1).
 
 <img src="./.github/images/figma.png" alt="Figma Prototype" />
 
-## Documentação do Design System
+## Design System Documentation
 
-A documentação do Design System pode ser acessada [aqui](https://mateusgiroletti.github.io/ignite-lab-design-system/).
+Design System documentation can be accessed [here](https://mateusgiroletti.github.io/ignite-lab-design-system/).
 
 
-## Teste o projeto você mesmo
+## Test the project yourself
 
-Para executar o projeto localmente basta clonar o repositório e executar os seguintes comandos. 
+To run the project locally just clone the repository and run the following commands.
 
-Clone em sua maquina:
+Clone on your machine:
 
 ```console
 git clone https://github.com/mateusgiroletti/ignite-lab-design-system.git
 ```
 
-Mude para o diretório do projeto e instale as dependências via npm
+Change to project directory and install dependencies via npm:
+
 ```console
 cd ignite-lab-design-system && npm ci --legacy-peer-deps
 ```
 
-Pare executar o storybook rode:
+Stop running the storybook run:
 
 ```console
 npm run storybook
 ```
 
-Acessando o link fornecido na saída do console, o resultado esperado é este:
+Accessing the link provided in the console output, the expected result is this:
 
 <img src="./.github/images/storybook.png" alt="Storybook" />
 
-E para rodar a interface desolvida:
+And to run the developed interface:
 
 ```console
 npm run dev
 ```
 
-Acessando o link fornecido na saída do console, o resultado esperado é este:
+Accessing the link provided in the console output, the expected result is this:
 
 <img src="./.github/images/application.png" alt="Application" />
