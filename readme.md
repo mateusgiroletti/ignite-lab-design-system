@@ -107,7 +107,7 @@ Change to project directory and install dependencies via npm:
 cd ignite-lab-design-system && npm ci --legacy-peer-deps
 ```
 
-Stop running the storybook run:
+Start running the storybook run:
 
 ```console
 npm run storybook
